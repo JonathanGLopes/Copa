@@ -1,0 +1,21 @@
+.header_banner {
+    background-image: url(/assets/imagens/wallpaper.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 200px;
+}
+
+.header_banner-img {
+    background-color: var(--vinho);
+    opacity: 0.7;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header_banner-logo {
+    width: 124px;
+    height: 143px;
+}

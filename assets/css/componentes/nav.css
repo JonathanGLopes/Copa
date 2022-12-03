@@ -1,0 +1,17 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 32px 24px;
+}
+
+.nav_logo-imagem {
+    width: 65px;
+}
+
+.nav_menu > ul {
+    display: none;
+}
+
+i {
+    color: var(--vinho);
+}
