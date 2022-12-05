@@ -1,0 +1,42 @@
+.jogos_titulo {
+    font-size: 24px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.jogos_rodada {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0 auto 20px auto;
+    background-color: var(--branco200);
+    width: 312px;
+    height: 80px;
+    box-shadow: 3px 3px 3px rgba(60, 57, 57, 0.2);
+    border-radius: 6px;
+}
+
+.jogos_time{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.jogos_datahora{
+    font-size: 12px;
+    color: var(--vinho);
+    font-weight: 600;
+}
+
+.jogos_todos {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 20px auto 20px auto;
+    color: var(--vinho);
+    font-size: 14px;
+    background-color: #FFF2F6;
+    width: 312px;
+    height: 32px;
+    border-radius: 6px;
+}
