@@ -40,3 +40,11 @@
     height: 32px;
     border-radius: 6px;
 }
+
+.jogos_bandeira {
+    display: none;
+}
+
+.desktop {
+    display: none;
+}
