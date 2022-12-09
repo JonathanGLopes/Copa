@@ -46,3 +46,17 @@
 .grupo_b, .grupo_c{
     display: none;
 }
+
+/* Media query 760px */
+
+.grupos_card {
+    width: 60%;
+}
+
+.card_time-nome {
+    font-size: 24px;
+}
+
+.card_time {
+    justify-content: center;
+}

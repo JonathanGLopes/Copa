@@ -19,3 +19,14 @@ i {
 .fa-bars {
     font-size: 1.5rem;
 }
+
+/* Media query 760px  */
+
+@media (min-width: 760px){
+    .nav_logo-imagem{
+        width: 85px;
+    }
+    .fa-bars {
+        font-size: 2rem;
+    }
+}

@@ -19,3 +19,11 @@
     width: 124px;
     height: 143px;
 }
+
+/* Media query 760px */
+
+@media (min-width: 760px){
+    .header_banner{
+        height: 300px;
+    }
+}
