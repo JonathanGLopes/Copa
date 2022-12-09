@@ -48,3 +48,18 @@
 .desktop {
     display: none;
 }
+
+/* Media query 760px  */
+
+@media (min-width: 760px){
+    .jogos_rodada {
+        width: 450px;
+        height: 100px;
+    }
+
+    .jogos_todos {
+        width: 450px;
+        height: 40px;
+        font-size: 1rem;
+    }
+}
