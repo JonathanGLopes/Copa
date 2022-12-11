@@ -60,3 +60,31 @@
 .card_time {
     justify-content: center;
 }
+
+/* Media query 1024px */
+
+
+@media (min-width: 1024px){
+
+    .grupos {
+        display: flex;
+        gap: 2rem;
+        justify-content: center;
+        margin-top: 100px;
+        position: relative;
+    }
+
+    .grupos_titulo {
+        position: absolute;
+        top: -110px;
+    }
+
+    .grupos_card {
+        width: 384px;
+        margin: 0;
+    }
+
+    .grupo_b, .grupo_c {
+        display: block;
+    }
+}
