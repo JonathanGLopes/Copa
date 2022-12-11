@@ -1,3 +1,4 @@
+
 .nav {
     display: flex;
     justify-content: space-between;
@@ -28,5 +29,23 @@ i {
     }
     .fa-bars {
         font-size: 2rem;
+    }
+}
+
+/* Media query 1024px */
+
+@media (min-width: 1024px){
+    .fa-bars{display: none;}
+
+    .nav {justify-content: space-around;}
+
+    .nav_menu > ul {
+        display: flex;
+        list-style: none;
+        cursor: pointer;
+    }
+
+    li:not(:first-child) {
+        margin-left: 1rem;
     }
 }
