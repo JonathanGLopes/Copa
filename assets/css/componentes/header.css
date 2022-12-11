@@ -27,3 +27,11 @@
         height: 300px;
     }
 }
+
+/* Media query 1024px  */
+
+@media (min-width: 1024px){
+    .header_banner {
+        height: 450px;
+    }
+}
