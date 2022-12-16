@@ -17,3 +17,14 @@
 .fa-chevron-left, .fa-chevron-right {
     font-size: 1rem;
 }
+
+/* Media query 1024px  */
+
+@media (min-width: 1024px){
+    .setas {
+        justify-content: center;
+    }
+    .retornar {
+        margin-right: 1rem;
+    }
+}
