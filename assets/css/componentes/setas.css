@@ -27,4 +27,8 @@
     .retornar {
         margin-right: 1rem;
     }
+
+    .retornar, .avancar {
+        cursor: pointer;
+    }
 }

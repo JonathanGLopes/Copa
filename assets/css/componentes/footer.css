@@ -25,3 +25,18 @@ footer {
     width: 124px;
     margin-top: 65px;
 }
+
+/* Media query 1024px  */
+
+@media (min-width: 1024px){
+
+    .footer_info {
+        display: flex;
+        justify-content: space-evenly;
+        padding: 2rem;
+    }
+
+    .footer_logo {
+        width: 227px;
+    }
+}
