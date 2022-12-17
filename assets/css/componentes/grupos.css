@@ -81,7 +81,16 @@
 
     .grupos_card {
         width: 384px;
+        height: 428px;
         margin: 0;
+    }
+
+    .grupos_card-times {
+        gap: 3.5rem;
+    }
+
+    .card_time {
+        justify-content: start;
     }
 
     .grupo_b, .grupo_c {
