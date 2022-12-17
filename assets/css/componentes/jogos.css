@@ -63,3 +63,35 @@
         font-size: 1rem;
     }
 }
+
+/* Media query 1024px */
+
+@media (min-width: 1024px){
+    .jogos_rodada {
+        width: 1216px;
+        justify-content: space-between;
+        padding: 0 6px 0 6px;
+    }
+
+    .jogos_datahora {
+        text-align: center;
+    }
+
+    .jogos_bandeira {
+        display: block;
+    }
+    
+
+    .wrap_time-a, .wrap_time-b {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 5rem;
+        width: 300px;
+    }
+
+    .jogos_todos {
+        cursor: pointer;
+    }
+
+}
