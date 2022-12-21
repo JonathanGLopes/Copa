@@ -4,6 +4,7 @@
     justify-content: space-between;
     padding: 32px 24px;
     background-color: var(--branco200);
+    align-items: center;
 }
 
 .nav_logo-imagem {

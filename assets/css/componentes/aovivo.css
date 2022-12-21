@@ -1,0 +1,41 @@
+.aovivo {
+    margin: 40px 0 33px 0;
+}
+
+.aovivo_jogo-img {
+    display: none;
+}
+
+.aovivo_titulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.aovivo_titulo-rec {
+    color: red;
+}
+
+.aovivo_jogo-placar {
+    color: var(--vinho);
+    margin: 0 2rem 0 2rem;
+}
+
+.aovivo_titulo-nome {
+    font-size: 20px;
+    color: #1F1E1E;
+    margin-left: 1rem;
+}
+
+.aovivo_jogo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: var(--branco200);
+    box-shadow: 3px 3px 3px rgba(60, 57, 57, 0.2);
+    border-radius: 6px;
+}
