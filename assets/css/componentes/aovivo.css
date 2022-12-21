@@ -13,10 +13,6 @@
     margin-bottom: 40px;
 }
 
-.aovivo_titulo-rec {
-    color: red;
-}
-
 .aovivo_jogo-placar {
     color: var(--vinho);
     margin: 0 2rem 0 2rem;
@@ -38,4 +34,14 @@
     background-color: var(--branco200);
     box-shadow: 3px 3px 3px rgba(60, 57, 57, 0.2);
     border-radius: 6px;
+}
+
+.video {
+    display: flex;
+    justify-content: center;
+}
+
+.video_player {
+    width: 80%;
+    height: 175px;
 }
