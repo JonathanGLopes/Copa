@@ -1,0 +1,29 @@
+
+.proxjogo_titulo {
+    text-align: center;
+    font-size: 24px;
+    color: #1F1E1E;
+}
+
+.proxjogo_jogo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    width: 80%;
+    background-color: var(--branco200);
+    padding: 30px;
+    margin: 48px auto 0 auto;
+    box-shadow: 3px 3px 3px rgba(60, 57, 57, 0.2);
+    border-radius: 6px;
+}
+
+.proxjogo_jogo-datahora {
+    color: var(--vinho);
+    font-size: 12px;
+}
+
+
+.proxjogo_jogo-img {
+    display: none;
+}
