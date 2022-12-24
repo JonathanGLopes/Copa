@@ -45,3 +45,15 @@
     width: 80%;
     height: 175px;
 }
+
+/* Media query 765px  */
+
+@media (min-width: 765px){
+    .aovivo_jogo {
+        gap: 3rem;
+    }
+
+    .video_player {
+        height: 350px;
+    }
+}

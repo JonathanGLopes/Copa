@@ -27,3 +27,12 @@
 .proxjogo_jogo-img {
     display: none;
 }
+
+
+/* Media query 765px  */
+
+@media (min-width: 765px){
+    .proxjogo_jogo {
+        gap: 3rem;
+    }
+}
