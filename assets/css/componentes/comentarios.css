@@ -35,3 +35,13 @@
 .comentarios_span {
     color: var(--vinho);
 }
+
+/* Media query 1024px */
+
+@media (min-width: 1024px){
+    .comentarios {
+        width: 76rem;
+        margin: 56px auto 100px auto;
+        padding: 0;
+    }
+}
