@@ -37,13 +37,21 @@
 }
 
 .video {
+    background-image: url(/assets/imagens/copa_do_mundo_2022.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 312px;
+    height: 175px;
+    margin: 0 auto;
+    border-radius: 6px;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
-.video_player {
-    width: 80%;
-    height: 175px;
+.player {
+    width: 40px;
+    height: 25px;
 }
 
 /* Media query 765px  */
@@ -55,5 +63,41 @@
 
     .video_player {
         height: 350px;
+    }
+}
+
+
+/* Media query 1024px */
+
+@media (min-width: 1024px){
+    .aovivo_jogo {
+        width: 76rem;
+        justify-content: space-between;
+        padding: 10px;
+    }
+
+    .aovivo_jogo-time1, .aovivo_jogo-time2 {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 5rem;
+        width: 300px;
+    }
+
+    .aovivo_jogo-img {
+        display: flex;
+    }
+
+    .video {
+        background-image: url(/assets/imagens/copa_do_mundo_2022.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 76rem;
+        height: 600px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+        border-radius: 6px;
     }
 }
