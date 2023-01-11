@@ -11,6 +11,4 @@ function toggleMenu() {
     } else {
         $ul.classList.toggle("nav_inativo");
     }
-    // $ul.classList.toggle("nav_ativo");
-    // $ul.classList.toggle("nav_inativo");
 }
